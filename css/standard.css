@@ -51,6 +51,26 @@ nav > a {
 .words-appt {
     float: left;
     background-color:rgba(111,20,12,255);
-    height: 600px;
     color: white;
+    font-family: 'Gilda Display', serif;
+    text-align: center;
+    transform: translate(1ch, 27ch);
+}
+
+.words-appt h1 {
+    font-size: 5ch;
+}
+
+.words-appt p {
+    font-size: 3ch;
+    margin: 0;
+    margin-bottom: 2ch;
+}
+
+.words-appt a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 2ch;
+    border-radius: 2ch;
 }
