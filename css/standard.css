@@ -36,3 +36,21 @@ nav > a {
     padding-top: 1.5ch;
 }
 
+.words-appt h1 {
+    margin: 0;
+}
+.car {
+    background-image: url(../images/clean-car1.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98ch;
+    float: right;
+}
+
+.words-appt {
+    float: left;
+    background-color:rgba(111,20,12,255);
+    height: 600px;
+    color: white;
+}
