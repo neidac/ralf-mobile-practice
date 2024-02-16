@@ -3,26 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ralf's Mobile Detail</title>
-    <link rel="stylesheet" href="../css/standard.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <title>Document</title>
 </head>
 <body>
-    <div id="site">
-        <header>
-            <nav>
-                <a href="about_us.html" class="move-down">About Us</a>
-                <a href="gallery.html" class="move-down">Gallery</a>
-                <a href="home.html">
-                     <img src="../images/logo_mobile_detail.png" alt="logo" class="logo-ralf">
-                </a>
-                <a href="services.html" class="move-down">Services</a>
-                <a href="testimonies.html" class="move-down">Testimonies</a>
-            </nav>
-        </header>
-        <div id="pages">
-    </div>
+    <section>
+        <div class="slider">
+            <div class="slides">
+                <!--buttons on slider--->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Images on slider-->
+                <div class="slide first">
+                    <img src="../images/Before and After 1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/Before and After 2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/Before and After 3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/Before and After 4.png" alt="">
+                </div>
+            </div>
+            <!--Mav starts-->
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <div class="nav-manual">
+                <label for="radio1" class="man-btn"></label>
+                <label for="radio2" class="man-btn"></label>
+                <label for="radio3" class="man-btn"></label>
+                <label for="radio4" class="man-btn"></label>
+            </div>
+        </div>
+    </section>
+    <script src="../js/gallery.js"></script>
 </body>
 </html>
