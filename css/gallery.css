@@ -1,14 +1,15 @@
-body {
+
+
+section {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     background: white;
     height: 100vh;
+    display: flex;
 }
-
-
 .slider {
     width: 800px;
     height: 500px;
@@ -52,16 +53,15 @@ body {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transform: 1s;
+    transition: 1s;
 }
 
 .man-btn:not(:last-child) {
     margin-right: 40px;
 }
 
-man-btn:hover {
+.man-btn:hover {
     background: white;
-    /* same color as border */
 }
 
 #radio1:checked ~ .first{
@@ -93,6 +93,7 @@ man-btn:hover {
     border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
     transition: 1s;
 }
 
@@ -101,14 +102,14 @@ man-btn:hover {
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1 {
-    background: white;
+    border: white;
 }
 #radio1:checked ~ .nav-auto .auto-btn2 {
-    background: white;
+    border: white;
 }
 #radio1:checked ~ .nav-auto .auto-btn3 {
-    background: white;
+    border: white;
 }
 #radio1:checked ~ .nav-auto .auto-btn4 {
-    background: white;
+    border: white;
 }
