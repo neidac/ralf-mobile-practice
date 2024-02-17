@@ -6,9 +6,19 @@ section {
     display: block;
     justify-content: center;
     align-items: center;
-    background: white;
-    height: 100vh;
+    background: rgba(111,20,12,255);
+    height: 85vh;
     display: flex;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40px);
+    font-size: 9ch;
+    margin: 0;
+    color: white;
 }
 .slider {
     width: 800px;
@@ -104,12 +114,12 @@ section {
 #radio1:checked ~ .nav-auto .auto-btn1 {
     border: white;
 }
-#radio1:checked ~ .nav-auto .auto-btn2 {
-    border: white;
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background: white;
 }
-#radio1:checked ~ .nav-auto .auto-btn3 {
-    border: white;
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background: white;
 }
-#radio1:checked ~ .nav-auto .auto-btn4 {
-    border: white;
+#radio4:checked ~ .nav-auto .auto-btn4 {
+    background: white;
 }
